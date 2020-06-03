@@ -1,5 +1,3 @@
-// Code your solutions in this
-const friends = [ 'Lisa', 'Kaitlin', 'Jan' ];
 
 function writeCards(nameOfArray, event) {
   let array = []
@@ -9,6 +7,10 @@ function writeCards(nameOfArray, event) {
 
   return nameOfArray;
 }
-
-
-writeCards(friends);
+function writeCards( namesArray, event ) {
+  let thankYouCards = []
+  for ( let i = 0; i < namesArray.length; i++ ) {
+    thankYouCards.push( `Thank you, ${namesArray[i]}, for the wonderful ${event} gift!` )
+  }
+  return thankYouCards
+}
