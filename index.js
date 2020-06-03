@@ -1,9 +1,9 @@
 // Code your solutions in this
 const friends = [ 'Lisa', 'Kaitlin', 'Jan' ]
 
-function writeCards() {
-  for (let i = 0; i < ; i++) {
-    console.log(`Wrapped ${gifts[i]} and added a bow!`);
+function writeCards(friends) {
+  for (let i = 0; i < friends.length ; i++) {
+    console.log('Thank you, ${friends[i]}, for the wonderful surprise gift!');
   }
 
   return gifts;
