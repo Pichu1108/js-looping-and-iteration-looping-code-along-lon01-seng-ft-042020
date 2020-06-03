@@ -6,7 +6,7 @@ function writeCards(nameOfArray, event) {
     console.log(`Thank you, ${nameOfArray[i]}, for the wonderful ${event} gift!`);
   }
 
-  return friends;
+  return nameOfArray;
 }
 
 
