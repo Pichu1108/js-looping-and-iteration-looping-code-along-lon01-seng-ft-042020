@@ -10,4 +10,4 @@ function writeCards(nameOfArray, event) {
 }
 
 
-writeCards();
+writeCards(friends);
