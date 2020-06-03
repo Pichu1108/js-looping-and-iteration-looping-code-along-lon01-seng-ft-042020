@@ -9,4 +9,4 @@ function writeCards(friends) {
   return friends;
 }
 
-writeCards()
+writeCards(firends)
