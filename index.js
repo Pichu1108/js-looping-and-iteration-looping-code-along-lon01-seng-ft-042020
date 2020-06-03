@@ -2,7 +2,7 @@
 const friends = [ 'Lisa', 'Kaitlin', 'Jan' ];
 
 function writeCards(nameOfArray, event) {
-  for (let i = 0; i < friends.length ; i++) {
+  for (let i = 0; i < nameOfArray.length ; i++) {
     console.log(`Thank you, ${friends[i]}, for the wonderful surprise gift!`);
   }
 
